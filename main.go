@@ -46,7 +46,7 @@ func getConfig() Config {
 	return Config{
 		DB: data.DBConfig{
 			DBName:     "mongodb",
-			ConnString: "mongodb://localhost:27017",
+			ConnString: "mongodb://mongodb:27017",
 		},
 	}
 
